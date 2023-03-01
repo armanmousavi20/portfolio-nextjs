@@ -69,7 +69,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
+                  <h5 className="mb-0">2 Years</h5>
                 </div>
               </div>
             </div>
