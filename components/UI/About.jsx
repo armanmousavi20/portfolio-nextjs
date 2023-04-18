@@ -64,10 +64,6 @@ const About = () => {
               <button className="primary__btn">
                 <Link href="#portfolio">My Portfolio</Link>
               </button>
-
-              <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button>
             </div>
           </Col>
 
