@@ -16,7 +16,7 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Arman</h2>
-              <h5 className="mb-4">Web Developer</h5>
+              <h5 className="mb-4">frontend Developer</h5>
               <p>
                     My name is Arman Mousavi, 
                     my main specialty is front-end  developer 
