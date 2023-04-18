@@ -23,12 +23,8 @@ const Hero = () => {
                     I am also active in the field of website design with WordPress and digital marketing.
               </p>
               <div className="mt-5">
-                <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button>
-
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="/resume.pdf" target="_blank">Download CV</Link>
                 </button>
               </div>
             </div>
