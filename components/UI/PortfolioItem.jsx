@@ -22,10 +22,10 @@ const PortfolioItem = (props) => {
 
       <div className={`${classes.portfolio__live} bg-transparent`}>
         <button className="primary__btn">
-          <Link href={liveUrl}>Launch</Link>
+          <Link href={liveUrl} target="_blank">Launch</Link>
         </button>
         <button className="primary__btn mx-2">
-          <Link href={github}>Source code on github</Link>
+          <Link href={github} target="_blank">Source code on github</Link>
         </button>
       </div>
     </div>
