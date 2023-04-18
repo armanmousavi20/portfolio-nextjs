@@ -24,7 +24,7 @@ const PortfolioItem = (props) => {
         <button className="primary__btn">
           <Link href={liveUrl}>Launch</Link>
         </button>
-        <button className="primary__btn mx-4">
+        <button className="primary__btn mx-2">
           <Link href={github}>Source code on github</Link>
         </button>
       </div>
