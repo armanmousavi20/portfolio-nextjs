@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/6435.jpg";
-import img02 from "../../public/images/6435.jpg";
-import img03 from "../../public/images/6435.jpg";
-import img04 from "../../public/images/6435.jpg";
+import img01 from "../../public/images/img1.jpg";
+import img02 from "../../public/images/img2.jpg";
+import img03 from "../../public/images/img3.jpg";
+import img04 from "../../public/images/img4.jpg";
 
 import classes from "../../styles/about.module.css";
 
@@ -79,28 +79,33 @@ const About = () => {
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img01} alt="about-img" height='200' width='200' />
+                  <Image src={img03} alt="about-img" height='250' width='200' />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img02} alt="about-img" height='200' width='200'/>
+                  <Image src={img02} alt="about-img" height='250' width='200'/>
                 </div>
               </div>
+
+              
 
               <div className=" d-flex flex-column mb-3">
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img03} alt="about-img" height='200' width='200'/>
+                  <Image src={img04} alt="about-img" height='250' width='200'/>
                 </div>
-
+                
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img04} alt="about-img" height='200' width='200'/>
+                  <Image src={img01} alt="about-img" height='250' width='200'/>
                 </div>
+                
+
+
               </div>
             </div>
           </Col>
