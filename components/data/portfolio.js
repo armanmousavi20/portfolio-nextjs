@@ -15,7 +15,7 @@ const portfolio = [
     category: "reactjs",
     keyword: ["reactjs" , "css"],
     liveUrl: "https://digikala-reactjs2.vercel.app/",
-    github:"https://github.com/armanmousavi20/digikala-react",
+    github:"https://github.com/armanmousavi20/digikala-reactjs",
   },
   {
     id: "03",
