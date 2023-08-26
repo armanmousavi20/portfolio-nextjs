@@ -122,6 +122,33 @@ const portfolio = [
     liveUrl: "https://portfolio-nextjs-nine-inky.vercel.app/",
     github:"https://github.com/armanmousavi20/portfolio-nextjs",
   },
+      {
+    id: "14",
+    title: "to do list",
+    img: "/images/portfolio10.png",
+    category: "js",
+    keyword: ["ui","html","css","js"],
+    liveUrl: "https://todo-list-js-flax.vercel.app/",
+    github:"https://github.com/armanmousavi20/todolist-js",
+  },
+      {
+    id: "15",
+    title: "nft project",
+    img: "/images/portfolio10.png",
+    category: "js",
+    keyword: ["ui","html","css","js"],
+    liveUrl: "https://nft-project-sandy-sigma.vercel.app/",
+    github:"https://github.com/armanmousavi20/NFTproject",
+  },
+        {
+    id: "16",
+    title: "wordpress ecommerce",
+    img: "/images/portfolio10.png",
+    category: "wp",
+    keyword: ["wordpress"],
+    liveUrl: "https://portfolio-nextjs-nine-inky.vercel.app/",
+    github:"https://github.com/armanmousavi20/portfolio-nextjs",
+  },
 ];
 
 export default portfolio;

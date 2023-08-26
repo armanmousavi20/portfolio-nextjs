@@ -26,6 +26,15 @@ const Portfolio = () => {
 
       setData(filteredData);
     }
+
+    if (filter === "js") {
+      const filteredData = portfolioData.filter(
+        (item) => item.category === filter
+      );
+
+      setData(filteredData);
+    }
+
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
@@ -41,6 +50,14 @@ const Portfolio = () => {
 
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
+              <button
+                className={` ${
+                  filter === "js" ? active : ""
+                } secondary__btn text-white`}
+                onClick={() => setFilter("js")}
+              >
+                js
+              </button>
               <button
                 className={` ${
                   filter === "reactjs" ? active : ""
