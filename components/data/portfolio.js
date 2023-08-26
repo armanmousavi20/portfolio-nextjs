@@ -125,7 +125,7 @@ const portfolio = [
       {
     id: "14",
     title: "to do list",
-    img: "/images/portfolio10.png",
+    img: "/images/portfolio14.png",
     category: "js",
     keyword: ["ui","html","css","js"],
     liveUrl: "https://todo-list-js-flax.vercel.app/",
