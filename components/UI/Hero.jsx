@@ -15,10 +15,10 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Arman</h2>
+              <h2 className="mt-3 mb-3">I&apos;m sadra</h2>
               <h5 className="mb-4">frontend Developer</h5>
               <p>
-                    My name is Arman Mousavi, 
+                    My name is sadra Mousavi, 
                     my main specialty is front-end  developer 
                     I am also active in the field of website design with WordPress and digital marketing.
               </p>
